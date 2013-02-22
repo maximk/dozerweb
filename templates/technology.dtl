@@ -1,0 +1,33 @@
+{% extends "base.dtl" %}
+
+{% block content %}
+<div class="row">
+<div class="ninecol">
+
+<h3>Our technology</h3>
+
+<p>The central ingredient of our technology portfolio is the LING VM - an Erlang
+VM capable of running directly on Xen hypervisor. Elimination of the traditional
+operating system from the software stack bring about benefits well beyond a
+modest performance boost.</p>
+
+<p>The primary optimisation target for the LING VM is the low startup time. Most
+of initialization is done during compile time including loading of essential
+Erlang modules. This reduced the startup time by orders of magnitude when
+compared to a Linux+Erlang combo. Moreover, LING VM starts as a Xen guest 2x
+faster then an Erlang/OTP as an OS process.</p>
+
+<p>The unique design of the LING VM makes it a much harder target for malicious
+attackers. Most of the attack vectors are removed along the traditional
+operating system.</p>
+
+<p>The primary community resource for the LING VM is <a
+href="http://erlangonxen.org">erlangonxen.org</a>.</p>
+
+</div>
+<div class="threecol last">
+{% include "invite.dtl" %}
+</div>
+</div>
+</div>
+{% endblock %}

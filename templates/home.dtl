@@ -1,0 +1,31 @@
+{% extends "base.dtl" %}
+
+{% block content %}
+<div class="row">
+
+<p>Cloudozer LLP is a company behind Erlang on Xen and related technologies. The
+technologies possess unique properties that allow creation of super-scalable
+zero-footprint cloud applications.</p>
+
+<p>Erlang on Xen reduces the startup time of a computing node by several orders
+of magnitude. This allows just-in-time provisioning of computing nodes.</p>
+
+<p>Erlang on Xen runs directly on top of the Xen hypervisor not requiring a
+traditional operating system, such as Linux. Thus a new level of security is
+achieved.</p>
+
+<p>Erlang on Xen is not open source. Commercial use requires a licence from
+Cloudozer LLP. Erlang on Xen is free for educational and evaluation purposes.
+For more information, visit Erlang on Xen community website -
+erlangonxen.org.</p>
+
+<p>Cloudozer LLP invests in furthering the technology according to the mid-term
+roadmap.</p>
+
+<p>Cloudozer LLP owns exclusive intellectual property rights to Erlang on Xen and
+related technologies. The company licenses them to cloud application developers
+and service providers. Each licence agreement will be customized to a particular
+case and will contain fees, royalties, and other considerations.</p>
+
+</div>
+{% endblock %}

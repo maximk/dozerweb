@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>Cloudozer LLP - towards a super-elastic cloud</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/css/1140.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/css3-mediaqueries.js"></script>
+
+<script type="text/javascript" src="/js/jquery-1.9.0.min.js"></script>
+
+<link rel="icon" href="/images/favicon.gif" type="image/gif" />
+	
+<meta name="keywords" content="Erlang, Xen, Erlang VM, Cloudozer, zero-footprint cloud,
+super-elastic cloud, Ling, Erling, hypervisor, exokernel, operating system, cloud computing,
+elastic, system software, scalable software, scalability, build service" />
+
+<script type="text/javascript">
+$(function() {
+	$('.menu li').hover(function() {
+		$(this).addClass('highlight');
+	}, function() {
+		$(this).removeClass('highlight');
+	});
+});
+</script>
+
+{% block head_extra %}{% endblock %}
+</head>
+<body>
+
+<div class="container header">
+<div class="row">
+<div class="fivecol logo"></div>	
+<div class="sevencol menu last">
+	<ul>
+		<li><a href="/about">about</a></li>
+		<li><a href="/technology">technology</a></li>
+		<li><a href="/partners">partners</a></li>
+		<li><a href="/licensing">licensing</a></li>
+		<li><a href="/contact">contact</a></li>
+	</ul>
+</div>
+</div>
+</div>
+
+<div class="container content">
+{% block content %}TODO{% endblock %}
+</div>
+
+<div class="container cellar">
+<div class="row">
+	<ul>
+		<li><a href="/about">about</a></li>
+		<li><a href="/technology">technology</a></li>
+		<li><a href="/partners">partners</a></li>
+		<li><a href="/licensing">licensing</a></li>
+		<li><a href="/contact">contact</a></li>
+	</ul>
+
+	<p>&copy; Cloudozer LLP, 2012</p>
+</div>
+</div>
+
+{% include "cloudozer_google.dtl" %}
+
+</body>
+</html>

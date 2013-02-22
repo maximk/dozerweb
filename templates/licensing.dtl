@@ -1,0 +1,6 @@
+{% extends "base.dtl" %}
+
+{% block content %}
+<h3>Licensing</h3>
+TODO
+{% endblock %}

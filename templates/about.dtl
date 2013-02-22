@@ -1,0 +1,26 @@
+{% extends "base.dtl" %}
+
+{% block content %}
+<div class="row">
+<div class="ninecol">
+
+<h3>About us</h3>
+
+<p>Cloudozer LLP is a startup company that develops core technologies of
+super-elastic clouds of the future. We believe that to achieve true elasticity
+the existing cloud software stack must be rethought and many its components
+abandoned.</p>
+
+<p>The company was formed in 2012 by a group of software entrepreneurs and
+technologists. To date, we have completed a critical piece of the super-elastic
+puzzle - LING - an Erlang VM with unprecendented boot-up time. Currently, we are
+focusing on clustering, orchestration, and adaptation/testing of applications,
+such as Ejabberd and RabbitMQ.</p>
+
+</div>
+<div class="threecol last">
+{% include "invite.dtl" %}
+</div>
+</div>
+</div>
+{% endblock %}

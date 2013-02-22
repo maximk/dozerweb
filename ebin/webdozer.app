@@ -1,0 +1,11 @@
+{application,webdozer,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{webdozer_app,[]}},
+              {env,[]},
+              {modules,[about_dtl,base_dtl,cloudozer_google_dtl,contact_dtl,
+                        home_dtl,invite_dtl,licensing_dtl,page_handler,
+                        partners_dtl,technology_dtl,webdozer_app,
+                        webdozer_sup]}]}.

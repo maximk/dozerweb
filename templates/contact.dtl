@@ -1,0 +1,6 @@
+{% extends "base.dtl" %}
+
+{% block content %}
+<h3>Contact us</h3>
+TODO
+{% endblock %}
