@@ -1,6 +1,32 @@
 {% extends "base.dtl" %}
 
 {% block content %}
-<h3>Licensing</h3>
-TODO
+<div class="row">
+<div class="ninecol">
+
+<h3>Technology licensing</h3>
+
+<p>Our software is not open-source. This may change in the future after a few
+successful products based on our technology are built by ourselves or our
+development partners.</p>
+
+<p>Our build service that exposes the most recent development branch of our
+software is free any purposes, including commercial use.</p>
+
+<p>Additional licensing options include:</p>
+
+<p>&ndash; <em>Private build service</em> instances. Companies may be interested
+in using a copy of the build service installed locally to avoid
+questions about confidentiality.</p>
+
+<p>Cloudozer LLP also offers annual support contracts that insure that new
+functionality and bugs critical for the client receive preferential
+treatment.</p>
+
+<p>Please inquire us via <a href="mailto:it@cloudozer.com">e-mail</a> regarding
+particulars of the private build service and annual support contract
+arrangements.</p>
+
+</div>
+</div>
 {% endblock %}

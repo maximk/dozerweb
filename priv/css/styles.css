@@ -52,7 +52,7 @@ li {
 	min-height: 600px;
 }
 
-.content p {
+.content p, .content pre {
 	margin-left: 40px;
 }
 
@@ -92,6 +92,48 @@ li {
 	padding-left: 12px;
 	border-left: 3px solid #c1f160;
 	font-size: 16px;
+}
+
+.starters {
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+.starters li {
+	margin-bottom: 20px;
+}
+
+.ling {
+	padding: 10px;
+	margin-top: 20px;
+	display: block;
+	border: 1px solid #ccc;
+}
+
+.roadmap {
+	margin: 0px 0px 25px 40px;
+	display: block;
+}
+
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:url(/images/overlay.png) repeat;
+    text-align:center;
+}
+
+#lightbox img {
+	display: block;
+	margin:80px auto;
+	background-color:#fff;
+	padding:20px;
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
 }
 
 @media handheld, only screen and (max-width: 767px) {

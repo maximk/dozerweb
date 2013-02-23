@@ -1,8 +1,28 @@
 {% extends "base.dtl" %}
 
+{% block head_extra %}
+<script type="text/javascript">
+$(function(e) {
+	$('.lightbox_trigger').click(function() {
+		var href = $(this).attr('href');
+		$('#lightbox img').attr('src', href);
+		$('#lightbox').show();
+		return false;
+	});
+	$('#lightbox').click(function() {
+		$(this).hide();
+	});
+});
+</script>
+{% endblock %}
+
 {% block content %}
 <div class="row">
 <div class="ninecol">
+
+<div id="lightbox" style="display:none">
+	<img src="#">
+</div>
 
 <h3>Our technology</h3>
 
@@ -23,6 +43,16 @@ operating system.</p>
 
 <p>The primary community resource for the LING VM is <a
 href="http://erlangonxen.org">erlangonxen.org</a>.</p>
+
+<p>Cloudozer LLP invests in furthering the technology according to the mid-term
+roadmap:</p>
+
+<a class="lightbox_trigger" href="/images/roadmap1.png">
+	<img class="roadmap" src="/images/roadmap_small1.png"></a>
+
+<p>The active development of the technology commenced in 2011. Today
+the technology is approaching the level of maturity required for commercial
+deployments.</p>
 
 </div>
 <div class="threecol last">

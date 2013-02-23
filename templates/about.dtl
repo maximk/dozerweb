@@ -13,9 +13,20 @@ abandoned.</p>
 
 <p>The company was formed in 2012 by a group of software entrepreneurs and
 technologists. To date, we have completed a critical piece of the super-elastic
-puzzle - LING - an Erlang VM with unprecendented boot-up time. Currently, we are
+puzzle &ndash; LING VM &ndash; an Erlang VM with unprecendented boot-up time. Currently, we are
 focusing on clustering, orchestration, and adaptation/testing of applications,
 such as Ejabberd and RabbitMQ.</p>
+
+<p>We percieve ourselves as a part of the trend towards new &ndash;
+super-elastic &ndash; clouds. The trend is in its infancy now and a lot of
+effort is needed from technology providers, such as Cloudozer, systems
+integrators, cloud service providers, and application developers to bring the
+new quality to end users.</p>
+
+<p>The name of our core technology &ndash; LING &ndash; originates from the
+Chinese word meaning &ldquo;zero&rdquo;:
+<img class="ling" src="/images/ling1.png">
+</p>
 
 </div>
 <div class="threecol last">

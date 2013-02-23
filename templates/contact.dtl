@@ -1,6 +1,33 @@
 {% extends "base.dtl" %}
 
 {% block content %}
+<div class="row">
+<div class="ninecol">
+
 <h3>Contact us</h3>
-TODO
+
+<p>Your welcome to contact us:</p>
+
+<p>via e-mail<br>
+	<a href="mailto:info@cloudozer.com">info@cloudozer.com</a></p>
+
+<p>or by phone<br>
+	+44 845 508-6137.</p>
+
+<p>Mailing address:</p>
+
+<pre>
+Office 4
+219 Kensington High Street
+London
+W8 6BD
+UK
+</pre>
+
+</div>
+<div class="threecol last">
+{% include "invite.dtl" %}
+</div>
+</div>
+</div>
 {% endblock %}

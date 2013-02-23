@@ -1,6 +1,35 @@
 {% extends "base.dtl" %}
 
 {% block content %}
-<h3>Partners</h3>
-TODO
+<div class="row">
+<div class="ninecol">
+
+<h3>Development Partners</h3>
+
+<p>Cloudozer LLP invites development partners who are interested in using our
+technologies for new products/services.</p>
+
+<p>We expect our development partners coming from diverse areas:</p>
+
+<p>&ndash; <em>Startup companies</em> that are building products that may benefit from the
+super-elastic properties of the cloud. Some ideas for such startups can be found
+in the revelant <a href="http://erlangonxen.org/cases">section</a> of the
+community website.</p>
+
+<p>&ndash; <em>Cloud stack developers</em> who want to increase the pace of resource
+provisioning of their solutions.</p>
+
+<p>&ndash; Developers of other <em>OS-less</em> technologies who may benefit from
+standardisation of hybrid super-elastic clouds.</p>
+
+<p>Our public <a href="http://build.erlangonxen.org">build service</a> generates
+images using the tip of the development branch of the LING VM and is free for
+everybody to use. We use exactly the same service internally.</p>
+
+<p>The build service is free for any purposes, including producing components of
+commercial products. Other licensing options are <a
+href="/licensing">available</a>.</p>
+
+</div>
+</div>
 {% endblock %}
