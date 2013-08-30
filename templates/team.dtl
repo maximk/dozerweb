@@ -1,0 +1,47 @@
+{% extends "base.dtl" %}
+
+{% block content %}
+<div class="row">
+<div class="ninecol">
+
+<h3>Our team</h3>
+
+<h4>Viktor Sovietov, CEO/Founder</h4>
+
+<img class="member" src="/images/viktor1.png">
+
+<p>Viktor has two decades of IT experience and is an entrepreneur who has
+founded a number of software companies specialising in distributed and parallel
+processing and management as well as in artificial intelligence.</p>
+
+<p>E-mail: <img src="/images/viktor_email1.png"></p>
+
+<h4 class="clear">Maxim Kharchenko, CTO/Founder</h4>
+
+<img class="member" src="/images/maxim1.png">
+
+<p>Maxim has more than twenty years of technical and business development experience at large
+IT companies. Maxim founded a series software product and services companies,
+championed the first commercial research institute in Russia. He holds MS in
+Applied Mathematics from MIPT and MSE in Technology Management from UPenn.</p>
+
+<p>E-mail: <img src="/images/maxim_email1.png"></p>
+
+<h4 class="clear">Ian Tsybulkin, Adviser</h4>
+
+<img class="member" src="/images/ian1.png">
+
+<p>Ian is a technology entrepreneur with many years of experience under
+his belt. He founded and managed a series of companies in the field of
+semiconductor design automation and digital media. Ian holds an MS degree from
+Moscow Institute of Science and Technology.</p>
+
+<p>E-mail: <img src="/images/ian_email1.png"></p>
+
+</div>
+<div class="threecol last">
+{% include "invite.dtl" %}
+</div>
+</div>
+</div>
+{% endblock %}

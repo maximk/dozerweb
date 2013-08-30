@@ -18,7 +18,7 @@ $(function(e) {
 
 {% block content %}
 <div class="row">
-<div class="ninecol">
+<div class="ninecol consulting">
 
 <div id="lightbox" style="display:none">
 	<img src="#">
@@ -26,14 +26,24 @@ $(function(e) {
 
 <h3>Our technology</h3>
 
-<p>The central ingredient of our technology portfolio is the LING VM - an Erlang
-VM capable of running directly on Xen hypervisor. Elimination of the traditional
-operating system from the software stack bring about benefits well beyond a
-modest performance boost.</p>
+<p>The Cloudozer's technology portfolio comprises a series of OS-less language
+runtimes capable of running directly on Xen hypervisor. The list of supported
+languages steadily grows and today includes:</p>
+
+<ul>
+<li>Erlang on Xen</li>
+<li>Go on Xen</li>
+<li>Rust on Xen</li>
+<li>J on Xen</li>
+</ul>
+
+<p>The central ingredient of our technology portfolio is the LING VM - an
+OS-less Erlang VM. Elimination of the traditional operating system from the
+software stack brings about benefits well beyond a modest performance boost.</p>
 
 <p>The primary optimisation target for the LING VM is the low startup time. Most
-of initialization is done during compile time including loading of essential
-Erlang modules. This reduced the startup time by orders of magnitude when
+of initialisation is done during compile time including loading of essential
+Erlang modules. This reduces the startup time by orders of magnitude when
 compared to a Linux+Erlang combo. Moreover, LING VM starts as a Xen guest 2x
 faster then an Erlang/OTP as an OS process.</p>
 
@@ -53,6 +63,25 @@ roadmap:</p>
 <p>The active development of the technology commenced in 2011. Today
 the technology is approaching the level of maturity required for commercial
 deployments.</p>
+
+<br>
+
+<h3>Related services</h3>
+
+<p>We can work together with you to design and implement systems that make use
+of Cloudozer's proprietary technologies, the systems that achieve:
+
+<ul>
+<li>Unmatched security as a result of greatly reduced surface of attack;</li>
+<li>Super-elasticity due to sub-second cloud server boot-up times;</li>
+<li>High-availability thanks to battle-tested Erlang platform.</li>
+</ul>
+</p>
+
+<p>You are welcome to <a href="/contact">contact</a> us to discuss how our
+technologies fit your needs and how we can help you as consultants.</p>
+
+<br>
 
 </div>
 <div class="threecol last">

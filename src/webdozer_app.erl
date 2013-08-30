@@ -22,14 +22,17 @@ start(_StartType, _StartArgs) ->
 			{"/",page_handler,[home_dtl]},
 			{"/about",page_handler,[about_dtl]},
 			{"/technology",page_handler,[technology_dtl]},
+			{"/roadmap",page_handler,[technology_dtl]},
 			{"/partners",page_handler,[partners_dtl]},
 			{"/licensing",page_handler,[licensing_dtl]},
+			{"/consulting",page_handler,[consulting_dtl]},
+			{"/team",page_handler,[team_dtl]},
 			{"/contact",page_handler,[contact_dtl]}
 		]}
 	]),
 
 	{ok,_} = cowboy:start_http(www, 8,
-		[{port,8000}],
+		[{port,8002}],
 		[{env,[{dispatch,Dispatch}]}]
 	),
 

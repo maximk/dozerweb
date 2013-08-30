@@ -1,0 +1,42 @@
+{% extends "base.dtl" %}
+
+{% block content %}
+<div class="row">
+<div class="eightcol consulting">
+
+<h3>Consulting Services</h3>
+
+<p>Cloudozer LLP offers consulting services to companies that face complex
+software-related challenges. If standard approaches no longer let you catch up
+with growing requirements put on your software systems, Cloudozer is here to
+help.</p>
+
+<p>We have an extensive knowledge and hands-on experience in the following
+areas:</p>
+
+<ul>
+<li>High-availability distributed systems</li>
+<li>Cloud infrastructure management</li>
+<li>High-performance computing and supercomputers</li>
+<li>Storage systems</li>
+<li>Real-time systems</li>
+<li>Large-scale software architecture</li>
+<li>Software process management</li>
+</ul>
+
+<p>You are welcome to <a href="/contact">contact</a> us to discuss how we can
+fit your project as consultants.<p>
+
+</div>
+
+<!--
+<div class="fourcol last">
+	<img src="/images/striped_circles1.png" width="300" height="168"
+		alt="Striped shirt" style="margin-top:50px">
+</div>
+-->
+
+</div>
+
+{% endblock %}
+
