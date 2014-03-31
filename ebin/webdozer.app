@@ -8,4 +8,5 @@
               {modules,[about_dtl,base_dtl,cloudozer_google_dtl,
                         consulting_dtl,contact_dtl,home_dtl,invite_dtl,
                         licensing_dtl,page_handler,partners_dtl,team_dtl,
-                        technology_dtl,webdozer_app,webdozer_sup]}]}.
+                        technology_dtl,text_handler,webdozer_app,
+                        webdozer_sup]}]}.

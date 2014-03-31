@@ -17,6 +17,8 @@ start() ->
 
 start(_StartType, _StartArgs) ->
 
+	MTypes = [{<<".pdf">>,[<<"application/pdf">>]}],
+
 	Dispatch = cowboy_router:compile([
 		{'_',[
 			{"/",page_handler,[home_dtl]},
@@ -27,7 +29,10 @@ start(_StartType, _StartArgs) ->
 			{"/licensing",page_handler,[licensing_dtl]},
 			{"/consulting",page_handler,[consulting_dtl]},
 			{"/team",page_handler,[team_dtl]},
-			{"/contact",page_handler,[contact_dtl]}
+			{"/contact",page_handler,[contact_dtl]},
+			{"/resources/[...]",cowboy_static,[{directory,"priv/resources"},
+											   {mimetypes,MTypes}]},
+			{"/ling/LICENSE",text_handler,["priv/other/LICENSE"]}
 		]}
 	]),
 
